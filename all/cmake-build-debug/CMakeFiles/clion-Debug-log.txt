@@ -1,0 +1,8 @@
+/snap/clion/296/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/296/bin/ninja/linux/x64/ninja -G Ninja -S /home/heaven001/CLionProjects/cpractice -B /home/heaven001/CLionProjects/cpractice/cmake-build-debug
+CMake Error at CMakeLists.txt:6 (add_executable):
+  The target name "/home/heaven001/CLionProjects/cpractice/all/main.c" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+-- Configuring incomplete, errors occurred!
